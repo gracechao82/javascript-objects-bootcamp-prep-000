@@ -2,6 +2,7 @@ var playlist = {Slowdive: 'Alison', 'My Bloody Valentine': 'Sometimes', 'Phil Oc
 
 function updatedPlaylist (obj, key, value){
   obj[key] = value
+  return obj
 }
 
 
